@@ -1,0 +1,3 @@
+🔗 TCP (Transmission Control Protocol)
+
+TCP is a transport layer protocol that ensures reliable communication between two systems. In your capture, TCP packets act as the backbone for many higher-level protocols like HTTP. You can see processes such as the three-way handshake (SYN, SYN-ACK, ACK) that establish a connection before data transfer begins. TCP also ensures that data is delivered in order and without errors, by using acknowledgments and retransmissions if needed. It operates over specific ports (e.g., port 80 for HTTP, port 443 for HTTPS), making it easy to identify in Wireshark.
