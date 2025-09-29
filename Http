@@ -1,0 +1,3 @@
+🌐 HTTP (Hypertext Transfer Protocol)
+
+HTTP is an application layer protocol used for communication between web browsers and servers. In the capture, HTTP packets usually appear when you open a website. They contain requests like GET or POST and responses such as 200 OK. An HTTP request typically includes details like the host, user-agent, and requested resource, while the response carries web page data. This protocol is fundamental for web browsing, but since it is not encrypted (unlike HTTPS), the traffic contents can be inspected easily in Wireshark.
