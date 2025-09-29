@@ -1,0 +1,3 @@
+🔎 DNS (Domain Name System)
+
+DNS is responsible for converting human-readable domain names (like google.com) into IP addresses. When you type a website in the browser, your computer sends a DNS query packet to a DNS server, which replies with the correct IP address in a DNS response. In Wireshark, DNS packets are easy to filter with dns. You’ll usually see queries using UDP port 53, though TCP may also be used for larger responses. DNS traffic is critical for network communication because without it, users would have to remember numerical IP addresses instead of domain names.
